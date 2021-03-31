@@ -3,3 +3,82 @@
 body {
     font-family: 'Titillium Web', sans-serif;
 }
+
+.callout-container {
+    height: 100vh;
+
+    background: url('/assets/images/hero-image.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+    .opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background: none;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 700;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--aqua {
+    color: white;
+    background-color: #1cc8c9;
+    border-color: #1cc8c9;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: 'Titillium Web', sans-serif;
+}
