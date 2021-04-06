@@ -220,7 +220,7 @@ h4 {
 }
 
 .modal-body {
-    background-image: url(../images/modal-back.jpg) no-repeat center fixed;
+    background: url(../images/modal-back.jpg) no-repeat center fixed;
 }
 
 .modal-header button {
