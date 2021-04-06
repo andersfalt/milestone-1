@@ -67,7 +67,7 @@ html {
     font-size: 1.2em;
 }
 
-/* Buttons */
+/* Buttons and Badges*/
 
 .btn-sm {
     width: 80px;
@@ -87,47 +87,23 @@ html {
     border-color: #1cc8c9;
 }
 
-/***** Services *****/
-
-.services-box {
-    padding-top: 30px;
-    text-align: left;
+.btn-lg {
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
-.services-box .services-box-icon {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto;
-    font-size: 40px;
-    color: #fff;
-    line-height: 80px;
-    text-align: center;
-    border-radius: 28px;
+.badge {
+    background-color: #424242;
 }
 
-.services-box h3 {
-    margin-top: 0;
-    padding: 0 0 10px 0;
+/* Specifications */
+
+.container-wrapper--specs {
+    margin: 20px 0;
 }
 
-.features-section h2 {
-    padding-top: 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.storage-us-box-img img {
-    border-radius: 4px;
-}
-
-img {
-    vertical-align: middle;
-    border-style: none;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
+.specifications i {
+    color: #1cc8c9;
 }
 
 /* Features */
@@ -141,6 +117,7 @@ img {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
+    color: #fff;
 }
 
 h4 {
@@ -206,6 +183,8 @@ h4 {
     border-radius: 100%;
 }
 
+/*Modal*/
+
 .modal-content {
     background-color: #424242;
 }
@@ -235,22 +214,7 @@ span .badge-secondary {
     color: #fff;
 }
 
-.badge {
-    background-color: #424242;
-}
-
-.btn-lg {
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-
-.container-wrapper--specs {
-    margin: 20px 0;
-}
-
-.features i {
-    color: #fff;
-}
+/*Carousel*/
 
 .client-review-stars {
     color: #1cc8c9;
@@ -261,9 +225,5 @@ span .badge-secondary {
     width: 10px;
     height: 10px;
     background-color: #1cc8c9;
-}
-
-.specifications i {
-    color: #1cc8c9;
 }
 
