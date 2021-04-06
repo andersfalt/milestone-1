@@ -63,7 +63,17 @@ html {
     color: #d0d0d0;
 }
 
+.even-larger-badge {
+    font-size: 1.2em;
+}
+
 /* Buttons */
+
+.btn-sm {
+    width: 80px;
+    border-radius: 25px;
+    font-weight: bold;
+}
 
 .btn--cta {
     font-weight: bold;
@@ -133,16 +143,6 @@ img {
     line-height: 45px;
 }
 
-.feature .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
-}
-
 h4 {
     padding-top: 10px;
 }
@@ -174,14 +174,15 @@ h4 {
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+.contact-heading {
     color: #fff;
 }
 
-textarea.form-control {
+.form-group-textarea {
     height: 100%;
     min-height: 9rem;
 }
+
 
 /*Footer*/
 
